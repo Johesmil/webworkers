@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<!--
+    This is an HTML page that contains a CSS and a Javascript file.
+    
+    Run this sample by clicking the 'Preview' button on top;
+    a new tab will open with the current page open.
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Web Workers by @johesmil</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    </head>
+    
+    <body>
+        <h1>Web Workers!</h1>
+        <input type="button" onclick="startWorking();" value="Start working!">
+        <input type="button" onclick="startCounting();" value="Start counting!">
+        <input type="button" onclick="startCalculating();" value="Start calculating!">
+        <input type="button" onclick="startReading();" value="Start reading!">
+        <input type="button" onclick="stopWorking();" value="Stop working!">
+        <br />
+        <br />
+        Results: <span id="resultSpan">...</span>
+        
+        <!-- load scripts at the bottom of your page -->
+        <script src="javascript/foreman.js"></script>
+    </body>
+</html>
