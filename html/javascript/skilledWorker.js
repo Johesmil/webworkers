@@ -1,8 +1,8 @@
 self.onmessage = function (event) {
-    messageHandler(event);
+    handleMessage(event);
 }
 
-function messageHandler(event) {
+function handleMessage(event) {
     var command = event.data.command;
     var parameters = event.data.parameters;
     var action = actions[command];
