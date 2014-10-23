@@ -6,6 +6,7 @@ Application for testing the Web Workers concept.
 - http://www.w3schools.com/html/html5_webworkers.asp
 - https://developer.mozilla.org/en-US/docs/Web/Guide/Performance/Using_web_workers
 - http://anders.janmyr.com/2013/02/web-workers.html
+- http://www.html5rocks.com/en/tutorials/workers/basics/
 
 ## Push to Git from c9
 ```
@@ -13,7 +14,6 @@ git add html README.md
 git commit -m "<comment>"
 git push
 ```
-
 
 # Created using
     ----------------------------------------------------------------- 
